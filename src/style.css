@@ -138,6 +138,15 @@ img {
   font-family: "cursive" "Lucida handwriting";
 }
 
+.back-text {
+  position: absolute;
+  font-size: 10px;
+  margin-top: 70%;
+  text-align: center;
+  font-style: italic;
+  font-family: "cursive" "Lucida handwriting";
+}
+
 .front-sticker {
   display: flex;
   margin-top: -26%;
@@ -151,7 +160,7 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 15%;
-  height: 74%;
+  height: 60%;
   width: 94%;
   background-color: transparent;
 }
