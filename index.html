@@ -77,19 +77,18 @@
         </div>
         <div class = "buttons">
           <button class="btn" id = "yesButton" onclick="nextPage('yes')">Happy Birthday !!</button>
-          </button>
-          <script>
-            function nextPage(choice) {
-                if (choice === 'yes') {
-                    window.location.href = "src/yes.html";
-                } else if (choice === 'no') {
-                    window.location.href = "src/no.html";
-                }
-            }
-        </script>
       </div>
       </div>
     </div> 
+    <script>
+      function nextPage(choice) {
+          if (choice === 'yes') {
+              window.location.href = "src/yes.html";
+          } else if (choice === 'no') {
+              window.location.href = "src/no.html";
+          }
+      }
+  </script>
         </div>
         <!--
         <footer class="footer">

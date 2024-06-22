@@ -16,3 +16,16 @@ body {
     -webkit-user-select: none;
     user-select: none;
   }
+
+  h3{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 2em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
