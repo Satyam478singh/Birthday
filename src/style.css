@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #e9afe1;
+  background-color: #1c181b;
   display: flex;
   height: 100vh;
   -webkit-user-select: none; /* Safari */
@@ -173,7 +173,7 @@ img {
 
 #yesButton {
   position: absolute;
-  margin-right: 0px;
+  margin-right: 0%;
 }
 
 .buttons {
@@ -239,6 +239,9 @@ img {
     padding: 12px 20px;
     margin: 30px;
     font-size: 13px;
+  }
+  yesButton {
+    margin-right: 0%;
   }
 }
 
